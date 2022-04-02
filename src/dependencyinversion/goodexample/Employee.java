@@ -1,4 +1,4 @@
-package dependencyinversion.badexample;
+package dependencyinversion.goodexample;
 
 public class Employee {
 
