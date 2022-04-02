@@ -4,8 +4,8 @@ package openclosegoodexample;
 since all new entities extend from it. It is open to its extension but closed to its modification.*/
 public class Employee {
 
-    private String fullName;
-    private int salary;
+    private final String fullName;
+    private final int salary;
 
     public Employee(String fullName, int salary) {
         this.fullName = fullName;

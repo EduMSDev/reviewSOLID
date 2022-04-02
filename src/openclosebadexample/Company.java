@@ -3,7 +3,7 @@ package openclosebadexample;
 import java.util.List;
 
 public class Company {
-    private ProgrammerMemoryPersistence persistence;
+    private final ProgrammerMemoryPersistence persistence;
 
     public Company() {
         this.persistence = new ProgrammerMemoryPersistence();

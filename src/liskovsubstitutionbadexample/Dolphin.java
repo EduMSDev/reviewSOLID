@@ -1,8 +1,8 @@
-package liskovsubstitutionprinciplebadexample;
+package liskovsubstitutionbadexample;
 
 /*This class broke the application,
 since replacing this class with any other would break the application.*/
-public class Dolphin extends Mammal{
+public class Dolphin extends Mammal {
 
     @Override
     public void walk() {

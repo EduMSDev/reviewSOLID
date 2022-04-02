@@ -1,4 +1,4 @@
-package liskovsubstitutionprinciplegoodexample;
+package liskovsubstitutiongoodexample;
 
 public class Mammal {
 

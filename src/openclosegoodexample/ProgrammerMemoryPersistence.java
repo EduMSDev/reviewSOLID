@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ProgrammerMemoryPersistence implements EmployeePersistence {
 
-    private List<Employee> employees;
+    private final List<Employee> employees;
 
     public ProgrammerMemoryPersistence() {
         this.employees = new ArrayList<>();

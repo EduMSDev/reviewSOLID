@@ -3,7 +3,7 @@ package openclosegoodexample;
 import java.util.List;
 
 public class Company {
-    private EmployeePersistence persistence;
+    private final EmployeePersistence persistence;
 
     public Company() {
         this.persistence = new ProgrammerMemoryPersistence();

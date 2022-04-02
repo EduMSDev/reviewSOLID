@@ -1,4 +1,4 @@
-package liskovsubstitutionprinciplebadexample;
+package liskovsubstitutionbadexample;
 
 /*It states that a superclass object should be replaceable with
 a subclass object without breaking the functionality of the software.*/

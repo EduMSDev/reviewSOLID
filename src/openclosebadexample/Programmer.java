@@ -4,8 +4,8 @@ package openclosebadexample;
 you have to modify the class, which breaks the open-closed principle.*/
 public class Programmer {
 
-    private String fullName;
-    private int salary;
+    private final String fullName;
+    private final int salary;
 
     public Programmer(String fullName, int salary) {
         this.fullName = fullName;
