@@ -1,5 +1,7 @@
 package openclosegoodexample;
 
+/*With this class the open-closed principle is no longer broken,
+since all new entities extend from it. It is open to its extension but closed to its modification.*/
 public class Employee {
 
     private String fullName;

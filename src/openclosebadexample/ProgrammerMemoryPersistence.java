@@ -2,7 +2,8 @@ package openclosebadexample;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*If you want to create another type of persistence,
+you have to modify the class, which breaks the open-closed principle.*/
 public class ProgrammerMemoryPersistence {
 
     private List<Programmer> programmers;

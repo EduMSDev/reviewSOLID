@@ -1,5 +1,7 @@
 package openclosebadexample;
 
+/*If you want to create other types of workers that are not programmers,
+you have to modify the class, which breaks the open-closed principle.*/
 public class Programmer {
 
     private String fullName;
